@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-labelledby="t" xmlns:c2pa="http://c2pa.org/manifest">
+  <title id="t">Brishti Gorai — Software Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060912"/><stop offset=".55" stop-color="#0E1128"/><stop offset="1" stop-color="#1B1145"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="70" y1="0" x2="480" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="410 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4C1D95"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".5"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+    <clipPath id="card"><rect width="1200" height="440" rx="26"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:Inter,'Segoe UI',Helvetica,Arial,sans-serif}
+    .mono{font-family:'Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace}
+    @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-30px)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+    @keyframes blink{0%,91%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+    @keyframes tap{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+    @keyframes twinkle{0%,100%{opacity:.1;transform:scale(.5)}50%{opacity:1;transform:scale(1)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes spinr{to{transform:rotate(-360deg)}}
+    @keyframes scanmove{0%{transform:translateY(-10px)}100%{transform:translateY(450px)}}
+    @keyframes role{0%{opacity:0;transform:translateY(16px)}4%,21%{opacity:1;transform:translateY(0)}25%,100%{opacity:0;transform:translateY(-16px)}}
+    @keyframes type{0%{transform:scaleX(0)}45%,85%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    @keyframes caret{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .blob1{animation:drift 11s ease-in-out infinite}
+    .blob2{animation:drift 14s ease-in-out infinite reverse}
+    .fl{animation:float 4.5s ease-in-out infinite}.d1{animation-delay:-1.2s}.d2{animation-delay:-2.4s}.d3{animation-delay:-3.4s}
+    .bob{animation:bob 3.2s ease-in-out infinite}
+    .eye{transform-box:fill-box;transform-origin:center;animation:blink 5s infinite}
+    .hand{animation:tap .45s ease-in-out infinite}.hand2{animation:tap .45s ease-in-out infinite;animation-delay:-.22s}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    .tw{transform-box:fill-box;transform-origin:center;animation:twinkle 3.2s ease-in-out infinite}
+    .ring{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+    .ring2{transform-box:fill-box;transform-origin:center;animation:spinr 36s linear infinite}
+    .scanline{animation:scanmove 7s linear infinite}
+    .role{opacity:0;animation:role 12s infinite both}
+    .r2{animation-delay:3s}.r3{animation-delay:6s}.r4{animation-delay:9s}
+    .bar{transform-box:fill-box;transform-origin:left center;animation:type 5s ease-in-out infinite}
+    .caret{animation:caret 1s steps(1) infinite}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.role{opacity:0}.r1{opacity:1}}
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="440" fill="url(#bg)"/>
+    <rect width="1200" height="440" fill="url(#grid)"/>
+    <g filter="url(#blur)">
+      <circle class="blob1" cx="260" cy="90" r="170" fill="#7C3AED" opacity=".38"/>
+      <circle class="blob2" cx="930" cy="330" r="200" fill="#0891B2" opacity=".32"/>
+      <circle class="blob1" cx="1100" cy="60" r="120" fill="#DB2777" opacity=".22"/>
+    </g>
+    <rect class="scanline" x="0" y="0" width="1200" height="2" fill="url(#scan)"/>
+
+    <g fill="#C4B5FD">
+      <circle class="tw" cx="640" cy="70" r="2.5"/><circle class="tw" cx="1150" cy="150" r="3" style="animation-delay:-1s"/>
+      <circle class="tw" cx="690" cy="390" r="2.5" style="animation-delay:-2s"/><circle class="tw" cx="1120" cy="400" r="2" style="animation-delay:-.6s"/>
+      <circle class="tw" cx="580" cy="200" r="2" style="animation-delay:-1.6s"/>
+    </g>
+
+    <!-- LEFT: text -->
+    <g class="sans">
+      <rect x="70" y="58" width="196" height="32" rx="16" fill="#0D1117" fill-opacity=".7" stroke="#34D399" stroke-opacity=".55"/>
+      <circle class="pulse" cx="90" cy="74" r="5" fill="#34D399"/>
+      <text x="104" y="79" font-size="14" fill="#D1FAE5" font-weight="600">Open to opportunities</text>
+
+      <text x="70" y="146" font-size="26" fill="#9CA3AF" font-weight="500">Hi there, I'm</text>
+      <text x="68" y="224" font-size="78" font-weight="800" fill="url(#nameGrad)" letter-spacing="-2">Brishti Gorai</text>
+    </g>
+    <g class="mono" font-size="29" font-weight="600" fill="#22D3EE">
+      <text class="role r1" x="70" y="282">&gt; Full-Stack Developer</text>
+      <text class="role r2" x="70" y="282">&gt; React + Next.js Builder</text>
+      <text class="role r3" x="70" y="282">&gt; Python + FastAPI Engineer</text>
+      <text class="role r4" x="70" y="282">&gt; API + Database Designer</text>
+    </g>
+    <text class="sans" x="70" y="326" font-size="19" fill="#CBD5E1">Turning ideas into thoughtful, reliable digital experiences.</text>
+
+    <g class="sans" font-size="14" font-weight="600" text-anchor="middle">
+      <g><rect x="70" y="352" width="76" height="34" rx="17" fill="#fff" fill-opacity=".06" stroke="#22D3EE" stroke-opacity=".7"/><text x="108" y="374" fill="#A5F3FC">React</text></g>
+      <g><rect x="158" y="352" width="88" height="34" rx="17" fill="#fff" fill-opacity=".06" stroke="#E5E7EB" stroke-opacity=".6"/><text x="202" y="374" fill="#F3F4F6">Next.js</text></g>
+      <g><rect x="258" y="352" width="88" height="34" rx="17" fill="#fff" fill-opacity=".06" stroke="#FBBF24" stroke-opacity=".7"/><text x="302" y="374" fill="#FDE68A">Python</text></g>
+      <g><rect x="358" y="352" width="96" height="34" rx="17" fill="#fff" fill-opacity=".06" stroke="#34D399" stroke-opacity=".7"/><text x="406" y="374" fill="#A7F3D0">FastAPI</text></g>
+      <g><rect x="466" y="352" width="116" height="34" rx="17" fill="#fff" fill-opacity=".06" stroke="#60A5FA" stroke-opacity=".7"/><text x="524" y="374" fill="#BFDBFE">PostgreSQL</text></g>
+    </g>
+
+    <!-- RIGHT: avatar -->
+    <g transform="translate(700,40)">
+      <circle cx="200" cy="215" r="190" fill="#22D3EE" opacity=".07" class="pulse"/>
+      <circle class="ring" cx="200" cy="215" r="160" fill="none" stroke="#22D3EE" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 11"/>
+      <circle class="ring2" cx="200" cy="215" r="188" fill="none" stroke="#A78BFA" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="18 14"/>
+
+      <g class="sans" font-weight="700" text-anchor="middle">
+        <g class="fl"><rect x="30" y="105" width="64" height="34" rx="10" fill="#0D1117" stroke="#22D3EE"/><text class="mono" x="62" y="127" font-size="15" fill="#22D3EE">&lt;/&gt;</text></g>
+        <g class="fl d1"><rect x="318" y="90" width="64" height="34" rx="10" fill="#0D1117" stroke="#A78BFA"/><text class="mono" x="350" y="112" font-size="15" fill="#A78BFA">{ }</text></g>
+        <g class="fl d2"><rect x="14" y="205" width="64" height="34" rx="10" fill="#0D1117" stroke="#34D399"/><text class="mono" x="46" y="227" font-size="14" fill="#34D399">Py</text></g>
+        <g class="fl d3"><rect x="326" y="195" width="64" height="34" rx="10" fill="#0D1117" stroke="#F472B6"/><text class="mono" x="358" y="217" font-size="14" fill="#F472B6">SQL</text></g>
+        <g class="fl d1"><rect x="40" y="290" width="64" height="34" rx="10" fill="#0D1117" stroke="#38BDF8"/><text class="mono" x="72" y="312" font-size="14" fill="#38BDF8">API</text></g>
+      </g>
+
+      <g class="bob">
+        <circle cx="200" cy="118" r="24" fill="#1F1235"/>
+        <path d="M128 215 C122 140 168 120 200 120 C232 120 278 140 272 215 C274 262 262 290 246 296 L154 296 C138 290 126 262 128 215 Z" fill="#1F1235"/>
+        <rect x="184" y="262" width="32" height="44" rx="12" fill="#E3A982"/>
+        <path d="M96 400 C96 335 140 300 200 300 C260 300 304 335 304 400 Z" fill="url(#hoodie)"/>
+        <path d="M170 300 C178 322 222 322 230 300" fill="none" stroke="#C4B5FD" stroke-width="3" stroke-linecap="round"/>
+        <line x1="188" y1="318" x2="186" y2="345" stroke="#C4B5FD" stroke-width="3" stroke-linecap="round"/>
+        <line x1="212" y1="318" x2="214" y2="345" stroke="#C4B5FD" stroke-width="3" stroke-linecap="round"/>
+        <ellipse cx="200" cy="222" rx="58" ry="64" fill="#F1C3A0"/>
+        <ellipse cx="144" cy="228" rx="8" ry="12" fill="#E3A982"/><ellipse cx="256" cy="228" rx="8" ry="12" fill="#E3A982"/>
+        <circle cx="144" cy="242" r="3" fill="#22D3EE"/><circle cx="256" cy="242" r="3" fill="#22D3EE"/>
+        <path d="M140 214 C138 150 262 150 260 214 C246 188 214 178 194 172 C176 192 158 204 140 214 Z" fill="#1F1235"/>
+        <circle cx="165" cy="248" r="8" fill="#F472B6" opacity=".3"/><circle cx="235" cy="248" r="8" fill="#F472B6" opacity=".3"/>
+        <ellipse class="eye" cx="178" cy="228" rx="5" ry="6.5" fill="#111827"/><ellipse class="eye" cx="222" cy="228" rx="5" ry="6.5" fill="#111827"/>
+        <g fill="#22D3EE" fill-opacity=".1" stroke="#22D3EE" stroke-width="3"><circle cx="178" cy="228" r="19"/><circle cx="222" cy="228" r="19"/></g>
+        <path d="M197 226 Q200 222 203 226" fill="none" stroke="#22D3EE" stroke-width="3"/>
+        <path d="M159 224 L146 220 M241 224 L254 220" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+        <path d="M185 255 Q200 268 215 255" fill="none" stroke="#9A3B3B" stroke-width="3" stroke-linecap="round"/>
+      </g>
+
+      <path d="M112 330 L288 330 L300 400 L100 400 Z" fill="#111827"/>
+      <rect x="118" y="318" width="164" height="82" rx="10" fill="#1F2937" stroke="#374151" stroke-width="2"/>
+      <circle cx="200" cy="360" r="16" fill="#22D3EE" opacity=".25" class="pulse"/><circle cx="200" cy="360" r="8" fill="#22D3EE" class="pulse"/>
+      <circle class="hand" cx="160" cy="320" r="11" fill="#F1C3A0"/><circle class="hand2" cx="240" cy="320" r="11" fill="#F1C3A0"/>
+    </g>
+
+    <!-- floating code window -->
+    <g class="fl d2">
+      <rect x="1032" y="292" width="140" height="104" rx="12" fill="#0D1117" fill-opacity=".92" stroke="#A78BFA" stroke-opacity=".6"/>
+      <circle cx="1048" cy="308" r="3.5" fill="#F87171"/><circle cx="1060" cy="308" r="3.5" fill="#FBBF24"/><circle cx="1072" cy="308" r="3.5" fill="#34D399"/>
+      <rect class="bar" x="1046" y="326" width="70" height="7" rx="3.5" fill="#22D3EE"/>
+      <rect class="bar" x="1058" y="344" width="90" height="7" rx="3.5" fill="#A78BFA" style="animation-delay:.4s"/>
+      <rect class="bar" x="1058" y="362" width="56" height="7" rx="3.5" fill="#F472B6" style="animation-delay:.8s"/>
+      <rect class="bar" x="1046" y="380" width="80" height="7" rx="3.5" fill="#34D399" style="animation-delay:1.2s"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="438" rx="25" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="2"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowZmU5MzQ0OS1hYjE4LTQzMzktYjllNi1lYzg2YmU4MTY5OTcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMNmBSeMEslVMWDFLRj3ze0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4NDI4M2E4Zi04MjA1LTQ0NjMtYTY2NS00ZDU4NmVmZDY5NmZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNopQUe92PTYCb7VUKogvm5NgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggSfkyWnzn2vp18dgNeK1uXgLAif1TQg3hyTaamMpv6WWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaP2Byg+SxqW6wTpCSRu9MBUAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIJBceO9R5TX21kGHMyo3U16xbFOaNr581wfe59doYBHZZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GS7VZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjBmZTkzNDQ5LWFiMTgtNDMzOS1iOWU2LWVjODZiZTgxNjk5Ny9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmQ1MDgzNjFiLTMwMWQtNGNhZC1iYmE3LTkwOTViYjc4NTQzNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBJ+TJafOfa+nXx2A14rW5eAsCJ/VNCDeHJNpqYym/pZaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggC7B2taEk4LJ2ZPJSkG8Vh+/Mhm+/Bcy/2W3FHyrYuXiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggyPpAmacvWtihqObMicf6CPOSS9D4eML+Ix/vZga8z1V0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQB0+HqqDQKVPigPEoNN1cBxk2cnO9pqxeuQcQnUntuQXdl0Xy6Sfe2FkhO8QKlQGI27+tFZaX/3Tnya3DxPgLZ0=</c2pa:manifest></metadata></svg>
