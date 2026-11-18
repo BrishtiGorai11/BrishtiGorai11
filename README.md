@@ -1,92 +1,57 @@
-<!-- Replace YOUR_GITHUB_USERNAME, links, email, and project repositories before publishing. -->
+<!-- ✏️ Before publishing: replace YOUR_GITHUB_USERNAME, YOUR_LINKEDIN_URL, YOUR_PORTFOLIO_URL, YOUR_EMAIL and the repo names in the project links. -->
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-    <img src="./dark.svg" alt="Brishti Gorai — Software Developer" width="100%">
-  </picture>
+  <img src="./assets/hero.svg" alt="Brishti Gorai — Full-Stack Software Developer" width="100%">
 </div>
+
+<br>
 
 <div align="center">
   <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Explore-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=650&lines=Software+Developer;Building+useful+things+with+code;React+%7C+Next.js+%7C+Python+%7C+APIs;Always+learning.+Always+shipping." alt="Animated typing introduction">
-</div>
-
-<p align="center">
-  <em>Turning ideas into thoughtful, reliable digital experiences.</em>
-</p>
-
----
+<br>
 
 ## ✦ About Me
 
 <table>
   <tr>
-    <td width="38%" align="center" valign="middle">
-      <img src="./avatar.svg" width="300" alt="Animated avatar of Brishti Gorai coding on a laptop">
+    <td width="52%" valign="middle">
+      <img src="./assets/terminal.svg" alt="Animated terminal introduction" width="100%">
     </td>
-    <td width="62%" valign="middle">
-      <p>Hey, I'm <b>Brishti Gorai</b> — a software developer who enjoys building practical products across the frontend and backend. I'm currently sharpening my skills in <b>React, Next.js, Python, SQL, and API development</b>, while learning to write cleaner code and build better user experiences.</p>
+    <td width="48%" valign="middle">
+      <p>I'm <b>Brishti</b>, a software developer who loves building practical products across the frontend and backend — and taking a feature from a rough idea to a polished, working implementation.</p>
       <ul>
-        <li>⚡ Interested in full-stack development and real-world problem solving</li>
-        <li>🌱 Currently learning: <b>React · Next.js · REST APIs · Python · SQL</b></li>
-        <li>🧩 I enjoy taking a feature from an idea to a working implementation</li>
-        <li>🎯 Goal: keep learning, ship meaningful projects, and grow as an engineer</li>
+        <li>⚡ Full-stack problem solver</li>
+        <li>🌱 Learning: <b>React · Next.js · REST APIs · Python · SQL</b></li>
+        <li>🧩 Focus: clean code and thoughtful UX</li>
+        <li>🎯 Goal: ship meaningful projects and grow as an engineer</li>
       </ul>
     </td>
   </tr>
 </table>
 
-## 🛠️ Tech Stack
+## 🛠️ Tech & Skills
+
+<img src="./assets/skills.svg" alt="Animated technology and skills marquee" width="100%">
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,python,fastapi,postgres,git,github,vscode&perline=6" alt="Technology icons">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,python,fastapi,postgres,git,github,vscode&perline=11" alt="Technology icons">
 </div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-06B6D4?style=flat-square" alt="Frontend">
-  <img src="https://img.shields.io/badge/Backend-Python%20%7C%20FastAPI-8B5CF6?style=flat-square" alt="Backend">
-  <img src="https://img.shields.io/badge/Database-SQL%20%7C%20PostgreSQL-2563EB?style=flat-square" alt="Database">
-</p>
 
 ## 🚀 Featured Projects
 
-> Replace these examples with your actual repository names and descriptions before publishing.
-
 <table>
   <tr>
-    <td width="50%">
-      <h3>🩸 LifeDrop — NGO Platform</h3>
-      <p>A community-focused website concept for NGO information, blood donation initiatives, donor contact, and admin workflows.</p>
-      <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>FastAPI</code> <code>PostgreSQL</code></p>
-      <a href="https://github.com/YOUR_GITHUB_USERNAME/ngo-project">View repository ↗</a>
-    </td>
-    <td width="50%">
-      <h3>📑 Tender Intelligence Platform</h3>
-      <p>A multi-tenant platform concept for tender document ingestion, processing, search, and knowledge-base workflows.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Celery</code> <code>AI</code></p>
-      <a href="https://github.com/YOUR_GITHUB_USERNAME/tender-intelligence">View repository ↗</a>
-    </td>
+    <td width="50%"><a href="https://github.com/YOUR_GITHUB_USERNAME/ngo-project"><img src="./assets/project-lifedrop.svg" alt="LifeDrop — NGO Platform" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/YOUR_GITHUB_USERNAME/tender-intelligence"><img src="./assets/project-tender.svg" alt="Tender Intelligence Platform" width="100%"></a></td>
   </tr>
   <tr>
-    <td width="50%">
-      <h3>🛍️ Small Business Store</h3>
-      <p>An e-commerce MVP concept with product listings, inventory management, COD checkout, and location-based delivery rules.</p>
-      <p><code>React</code> <code>JavaScript</code> <code>API</code> <code>SQL</code></p>
-      <a href="https://github.com/YOUR_GITHUB_USERNAME/store-app">View repository ↗</a>
-    </td>
-    <td width="50%">
-      <h3>✨ More in progress</h3>
-      <p>Experimenting with frontend interactions, backend APIs, database design, and full-stack project architecture.</p>
-      <p><code>Build</code> <code>Learn</code> <code>Improve</code></p>
-      <a href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories">Explore repositories ↗</a>
-    </td>
+    <td width="50%"><a href="https://github.com/YOUR_GITHUB_USERNAME/store-app"><img src="./assets/project-store.svg" alt="Small Business Store" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories"><img src="./assets/project-more.svg" alt="More projects in progress" width="100%"></a></td>
   </tr>
 </table>
 
@@ -111,13 +76,8 @@
   </picture>
 </div>
 
----
-
 <div align="center">
-  <h3>💬 Let's build something meaningful.</h3>
-  <p>Open to learning, collaboration, and interesting software projects.</p>
-  <a href="YOUR_LINKEDIN_URL">Connect on LinkedIn</a> ·
-  <a href="mailto:YOUR_EMAIL">Email me</a>
-  <br><br>
   <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=7C3AED&label=PROFILE+VIEWS" alt="Profile views">
 </div>
+
+<img src="./assets/footer.svg" alt="Let's build something meaningful" width="100%">
