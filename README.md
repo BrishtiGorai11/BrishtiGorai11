@@ -26,12 +26,22 @@
 
 ## ✦ About Me
 
-Hey, I'm **Brishti Gorai** — a software developer who enjoys building practical products across the frontend and backend. I'm currently sharpening my skills in **React, Next.js, Python, SQL, and API development**, while learning to write cleaner code and build better user experiences.
-
-- ⚡ Interested in full-stack development and real-world problem solving
-- 🌱 Currently learning: **React · Next.js · REST APIs · Python · SQL**
-- 🧩 I enjoy taking a feature from an idea to a working implementation
-- 🎯 Goal: keep learning, ship meaningful projects, and grow as an engineer
+<table>
+  <tr>
+    <td width="38%" align="center" valign="middle">
+      <img src="./avatar.svg" width="300" alt="Animated avatar of Brishti Gorai coding on a laptop">
+    </td>
+    <td width="62%" valign="middle">
+      <p>Hey, I'm <b>Brishti Gorai</b> — a software developer who enjoys building practical products across the frontend and backend. I'm currently sharpening my skills in <b>React, Next.js, Python, SQL, and API development</b>, while learning to write cleaner code and build better user experiences.</p>
+      <ul>
+        <li>⚡ Interested in full-stack development and real-world problem solving</li>
+        <li>🌱 Currently learning: <b>React · Next.js · REST APIs · Python · SQL</b></li>
+        <li>🧩 I enjoy taking a feature from an idea to a working implementation</li>
+        <li>🎯 Goal: keep learning, ship meaningful projects, and grow as an engineer</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## 🛠️ Tech Stack
 
